@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/02fc8e9652.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>PORTFOLIO</title>
@@ -29,12 +30,14 @@
 
       <!-- text---------------------------------------------- -->
       <div class="text-container">
+        <div class="home_border" data-aos="zoom-out" data-aos-duration="2000">
         <p>Hello</p>
         <p>I'M SAQLAIN</p>
         <p>I am Software Engineer <br> & UI Designer</p>
         <button class="hire-btn">Hire Me </button>
         <button class="down-cv">Download CV</button>
       </div>
+     </div>
 
       <!-- model------------------------------------------------------- -->
        <img src="saq.jpg" alt="model" class="model" >
@@ -150,15 +153,10 @@
         <a href="https://www.linkedin.com/in/saqlain-khan-0b16861b2"><i class="fab fa-linkedin-in"></i></a>
         <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope"></i></a>
         </div>
- <!-- jQuery---------------------------------------------------- -->
- <script type="text/javascript" src="js/jQuery.js"></script>
- <script type="text/javascript">
- $(document).ready(function(){
-   $('.toggle').click(function(){
-     $('.toggle').toggleClass('active')
-     $('nav').toggleClass('active')
-   })
- })
- </script>
+ <!-- aos animation---------------------------------------------------- -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+     </script>
   </body>
 </html>
