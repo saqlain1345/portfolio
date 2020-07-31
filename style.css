@@ -40,6 +40,10 @@ nav ul li a {
   font-weight: 700;
 }
 
+/* .fa-bars {
+  display: none;
+} */
+
 .logo {
   font-family: cursive;
   color: #000000;
@@ -100,12 +104,14 @@ nav ul li a {
 .hire-btn {
   border: 2px solid #373636;
   color: #373636;
+  cursor: pointer;
 }
 
 .down-cv {
   background-color: #0b0b0b;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 button:active {
@@ -500,6 +506,22 @@ footer p:nth-child(2) {
     transform: translate(-50%, -50%);
     width: 80%;
   }
+  .fa-bars {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+  }
+
+  /* nav ul {
+    height: 100vh;
+    width: 200px;
+    background: #ffffff;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: left;
+    z-index: 2;
+  } */
 
   nav ul {
     margin: 0px;
@@ -518,6 +540,7 @@ footer p:nth-child(2) {
     z-index: 1;
     display: none;
   }
+
   nav ul li {
     padding: 10px;
   }
