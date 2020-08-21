@@ -125,6 +125,10 @@ button:active {
   left: 70%;
   transform: translateX(-70%);
 }
+.model2 {
+  border: 2px solid rgb(161, 221, 245);
+  border-radius: 10px;
+}
 
 .about-container {
   width: 80%;
